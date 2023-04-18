@@ -49,7 +49,6 @@ async function getAutocmd(denops: Denops, bufnr: number) {
       denops,
       "autocmd " + item
     );
-    console.log(value)
     items.push({
       word: item,
       action: {
