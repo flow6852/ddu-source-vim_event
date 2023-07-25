@@ -37,7 +37,7 @@ async function getAutocmd(denops: Denops) {
     denops,
     "",
     "event",
-  ) as Array<string>;
+  );
   assert(eventItems, is.ArrayOf(is.String));
   for (
     const item of eventItems
